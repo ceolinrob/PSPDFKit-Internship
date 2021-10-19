@@ -29,19 +29,26 @@
         </div>
 
 
-        <div class="col-md-6">
-            
-            <input type="checkbox" id="case" name="case-sensitive">
-            <label for="case-sensitive">I would like my search to be case sensitive.</label>
+        <div class="row col-md-12">
 
-            <label for="form-control" class="form-label">Input the desired search string.</label>
-            <input type="text" class="form-control" id="string-picker">
-            
-            <div>
-                <button type="button" id="search-button" class="btn btn-primary string-searcher-button">Search matches</button>
+            <div class="col-md-6">
+                    <input type="checkbox" id="case" name="case-sensitive">
+                <label for="case-sensitive">I would like my search to be case sensitive.</label>
+
+                <label for="form-control" class="form-label">Input the desired search string.</label>
+                <input type="text" class="form-control" id="string-picker">
+                
+                <div>
+                    <button type="button" id="search-button" class="btn btn-primary string-searcher-button">Search matches</button>
+                </div>
+
+                <span id="result"></span>
             </div>
 
-            <span id="result"></span>
+            <div class="col-md-3">
+                <ul id="display-names">List of possible names:</ul>
+            </div>
+
         </div>
     </div>
     
